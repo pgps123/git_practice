@@ -6,9 +6,9 @@ succed_word = []
 failure_word = []
 while True:
     temp = input("영단어 입력(취소하기위해 0입력) > ")
-    En_word.append(temp)
     if temp == "0":
         break
+    En_word.append(temp)
     temp = input("뜻 입력 > ")
     Ko_word.append(temp)
 print("총 단어수 =", len(En_word))
