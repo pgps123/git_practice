@@ -11,6 +11,9 @@ while True:
     En_word.append(temp)
     temp = input("뜻 입력 > ")
     Ko_word.append(temp)
+print("-" * 50)
+print("quiz start!")
+print("-" * 50)
 print("총 단어수 =", len(En_word))
 while len(num_list) < len(En_word):
     num = randint(0, len(En_word) - 1)
